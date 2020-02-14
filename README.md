@@ -16,8 +16,10 @@ Then the A record is checked - if it is not set I assume that the domain does no
 This is a simplification, but in very few cases when the user mixes up and e.g. removes a zone, this data is not returned.
 For reasons of whois limits, on the part of nask, this is a compromise solution
 
+I set a limit by default: one domain per second
+
 ## Python Libray
 
-subprocess
-re
-time
+- subprocess
+- re
+- time
